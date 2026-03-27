@@ -416,7 +416,6 @@ async def refe_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     # Obtener texto de referencia
     refe_text = get_setting("refe_text", DEFAULT_REFE_TEXT)
-    formatted_refe = (
     f"🔥 <b>REFENENCIA ENVIADA</b>\n\n"
     f"👤 <b>Usuario:</b> {escape(user.first_name)} "
     f"{'@' + escape(user.username) if user.username else 'Sin username'}\n"
