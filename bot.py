@@ -418,16 +418,17 @@ async def refe_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     refe_text = get_setting("refe_text", DEFAULT_REFE_TEXT)
   
     # Formatear mensaje de referencia
-  formatted_refe = (
-    f"🔥 <b>REFENENCIA ENVIADA</b>\n\n"
-    f"👤 <b>Usuario:</b> {escape(user.first_name)} "
-    f"{'@' + escape(user.username) if user.username else 'Sin username'}\n"
-    f"🆔 <b>ID:</b> <code>{user_id}</code>\n"
-    f"📊 <b>Referencias Totales:</b> <code>{ref_count}</code>\n\n"
-    f"━━━━━━━━━━━━━━━━\n\n"
-    f"{refe_text}\n\n"
-    f"🔗 <i>Enviada desde el grupo principal</i>"
-)
+    # Formatear mensaje de referencia
+    formatted_refe = (
+        f"🔥 <b>REFENENCIA ENVIADA</b>\n\n"
+        f"👤 <b>Usuario:</b> {escape(user.first_name)} "
+        f"{'@' + escape(user.username) if user.username else 'Sin username'}\n"
+        f"🆔 <b>ID:</b> <code>{user_id}</code>\n"
+        f"📊 <b>Referencias Totales:</b> <code>{ref_count}</code>\n\n"
+        f"━━━━━━━━━━━━━━━━\n\n"
+        f"{refe_text}\n\n"
+        f"🔗 <i>Enviada desde el grupo principal</i>"
+    )
     
     # Enviar la imagen al grupo de referencias con el texto formateado
     try:
