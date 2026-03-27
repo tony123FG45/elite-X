@@ -21,7 +21,13 @@ REFE_GROUP_ID = -1003566231864
 LOG_GROUP_ID = -5154377611
 SUPERADMIN_IDS = {8747380388}
 AUTHORIZED_ADMIN_IDS = {5441572575,8747380388}
-DEFAULT_REFE_TEXT = "✨ <b>¿Quieres resultados así?</b>\n\nUNETE A LA ELITE </b>.\n🚀 Atención personalizada\n💎 Acceso exclusivo\n🔥 Staff autorizado"
+DEFAULT_REFE_TEXT = (
+    "✨ <b>¿Quieres resultados así?</b>\n\n"
+    "<b>ÚNETE A LA ELITE</b>.\n"
+    "🚀 Atención personalizada\n"
+    "💎 Acceso exclusivo\n"
+    "🔥 Staff autorizado"
+)
 MX_TZ = timezone(timedelta(hours=-6))
 DB = "bot.db"
 API_URL = "https://leviatan-chk.site/amazon/leviatan"
@@ -29,7 +35,7 @@ API_URL = "https://leviatan-chk.site/amazon/leviatan"
 # Configuración SSL
 os.environ["SSL_CERT_FILE"] = certifi.where()
 os.environ["REQUESTS_CERT_FILE"] = certifi.where()
-ssl._create_default_https_context = ssl.create_default_context(cafile=certifi.where())
+ssl._create__https_context = ssl.create_default_context(cafile=certifi.where())
 
 # Logging
 logging.basicConfig(format="%(asctime)s | %(levelname)s | %(name)s | %(message)s", level=logging.INFO)
