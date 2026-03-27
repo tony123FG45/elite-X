@@ -15,12 +15,12 @@ import requests
 # =========================================================
 
 BOT_TOKEN = "8752924542:AAEgrwkXEYJ2M0b0S0rtEe2o7r8EIHc33rQ"
-MAIN_GROUP_ID = -1003346725306
-REFE_GROUP_ID = -5203096283
-LOG_GROUP_ID = -5141261067
+MAIN_GROUP_ID = -1003777076233
+REFE_GROUP_ID = -1003566231864
+LOG_GROUP_ID = -5154377611
 SUPERADMIN_IDS = {8415284185}
 AUTHORIZED_ADMIN_IDS = {5940835901, 7579108964, 1552666034, 7499540439}
-DEFAULT_REFE_TEXT = "✨ <b>¿Quieres resultados así?</b>\n\nAquí inicia el <b>siguiente nivel</b>.\n🚀 Atención personalizada\n💎 Acceso exclusivo\n🔥 Staff autorizado"
+DEFAULT_REFE_TEXT = "✨ <b>¿Quieres resultados así?</b>\n\nUNETE A LA ELITE </b>.\n🚀 Atención personalizada\n💎 Acceso exclusivo\n🔥 Staff autorizado"
 MX_TZ = timezone(timedelta(hours=-6))
 DB = "bot.db"
 API_URL = "https://leviatan-chk.site/amazon/leviatan"
@@ -446,11 +446,8 @@ async def refe_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def staff_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         "👑 <b>STAFF OFICIAL</b>\n\n"
-        "• <b>Mendoza</b>: @Mendoza8390\n"
-        "• <b>UKNOW</b>: @USER_EQUIS\n"
-        "• <b>DELAN</b>: @delanpickles\n"
-        "• <b>CAPUCCINI</b>: @SoyMiau5\n"
-        "• <b>THE BOSS</b>: @Theboss665"
+        "• <b>ıllıllıᐯ卂乂ıllıllı</b>:@TheVax1\n"
+        "• <b>Elcaza</b>: @ElcazaJR1\n"
     )
     await safe_reply(update.message, text)
 
