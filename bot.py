@@ -19,7 +19,7 @@ MAIN_GROUP_ID = -1003777076233
 REFE_GROUP_ID = -1003566231864
 LOG_GROUP_ID = -5154377611
 SUPERADMIN_IDS = {8415284185}
-AUTHORIZED_ADMIN_IDS = {5940835901, 7579108964, 1552666034, 7499540439}
+AUTHORIZED_ADMIN_IDS = {5441572575}
 DEFAULT_REFE_TEXT = "✨ <b>¿Quieres resultados así?</b>\n\nUNETE A LA ELITE </b>.\n🚀 Atención personalizada\n💎 Acceso exclusivo\n🔥 Staff autorizado"
 MX_TZ = timezone(timedelta(hours=-6))
 DB = "bot.db"
